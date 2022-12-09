@@ -1,0 +1,26 @@
+#main-content {
+  height: 30vh;
+  width: 161rem;
+  background-color: coral;
+  .paris-photo {
+    display: flex;
+    .black-block {
+      height: 30vh;
+      width: 20rem;
+      background-color: $dark-color;
+    }
+    .black-block-second {
+      height: 30vh;
+      width: 78rem;
+      background-color: $dark-color;
+      i{
+        color: blue;
+        background-color: aliceblue;
+        font-size: 3rem;
+      }
+    }
+    img {
+      width: 63rem;
+    }
+  }
+}

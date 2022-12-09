@@ -131,4 +131,31 @@ header .sign-icon i {
   margin: 1.5rem 0;
 }
 
+#main-content {
+  height: 30vh;
+  width: 161rem;
+  background-color: coral;
+}
+#main-content .paris-photo {
+  display: flex;
+}
+#main-content .paris-photo .black-block {
+  height: 30vh;
+  width: 20rem;
+  background-color: #111;
+}
+#main-content .paris-photo .black-block-second {
+  height: 30vh;
+  width: 78rem;
+  background-color: #111;
+}
+#main-content .paris-photo .black-block-second i {
+  color: blue;
+  background-color: aliceblue;
+  font-size: 3rem;
+}
+#main-content .paris-photo img {
+  width: 63rem;
+}
+
 /*# sourceMappingURL=main.css.map */
