@@ -1,26 +1,39 @@
 #main-content {
-  height: 30vh;
-  width: 161rem;
-  background-color: coral;
   .paris-photo {
     display: flex;
     .black-block {
-      height: 30vh;
+      height: 22vh;
       width: 20rem;
       background-color: $dark-color;
     }
     .black-block-second {
-      height: 30vh;
-      width: 78rem;
+      height: 22vh;
+      width: 96rem;
       background-color: $dark-color;
-      i{
-        color: blue;
-        background-color: aliceblue;
-        font-size: 3rem;
+      .photo-icons {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        height: 22vh;
+        .fa-square-facebook {
+          color: blue;
+        }
+        .fa-twitter {
+          color: blue;
+        }
+        .fa-instagram {
+          color: red;
+        }
+        i {
+          margin-right: 4rem;
+          margin-bottom: 1rem;
+          font-size: 2rem;
+        }
       }
     }
     img {
-      width: 63rem;
+      width: 46rem;
     }
   }
+  
 }
