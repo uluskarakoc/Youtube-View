@@ -32,8 +32,44 @@
       }
     }
     img {
-      width: 46rem;
+      width: 24vw;
     }
   }
-  
+  .paris-subscribe {
+    height: 20vh;
+    width: 159rem;
+    
+    position: relative;
+    .subscribe {
+      position: relative;
+      height: 15vh;
+      
+      .profil {
+        position: absolute;
+        top: 2rem;
+        left: 13rem;
+        display: flex;
+        img {
+          width: 10rem;
+          border-radius: 50%;
+        }
+        .profil-text {
+          margin: 2rem;
+          h3 {
+            font-size: 3rem;
+          }
+          p {
+            font-size: 1.5rem;
+          }
+        }
+      }
+      button {
+        position: absolute;
+        top: 7rem;
+        left: 140rem;
+        color: $light-color;
+        background-color: $youtube-color;
+      }
+    }
+  }
 }

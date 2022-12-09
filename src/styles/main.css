@@ -165,7 +165,42 @@ header .sign-icon i {
   font-size: 2rem;
 }
 #main-content .paris-photo img {
-  width: 46rem;
+  width: 24vw;
+}
+#main-content .paris-subscribe {
+  height: 20vh;
+  width: 159rem;
+  position: relative;
+}
+#main-content .paris-subscribe .subscribe {
+  position: relative;
+  height: 15vh;
+}
+#main-content .paris-subscribe .subscribe .profil {
+  position: absolute;
+  top: 2rem;
+  left: 13rem;
+  display: flex;
+}
+#main-content .paris-subscribe .subscribe .profil img {
+  width: 10rem;
+  border-radius: 50%;
+}
+#main-content .paris-subscribe .subscribe .profil .profil-text {
+  margin: 2rem;
+}
+#main-content .paris-subscribe .subscribe .profil .profil-text h3 {
+  font-size: 3rem;
+}
+#main-content .paris-subscribe .subscribe .profil .profil-text p {
+  font-size: 1.5rem;
+}
+#main-content .paris-subscribe .subscribe button {
+  position: absolute;
+  top: 7rem;
+  left: 140rem;
+  color: #f4f4f4;
+  background-color: red;
 }
 
 /*# sourceMappingURL=main.css.map */
