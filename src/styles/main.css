@@ -168,7 +168,7 @@ header .sign-icon i {
   width: 24vw;
 }
 #main-content .paris-subscribe {
-  height: 20vh;
+  height: 17vh;
   width: 159rem;
   position: relative;
 }
@@ -197,10 +197,27 @@ header .sign-icon i {
 }
 #main-content .paris-subscribe .subscribe button {
   position: absolute;
-  top: 7rem;
-  left: 140rem;
+  top: 6rem;
+  left: 136rem;
   color: #f4f4f4;
   background-color: red;
+  font-size: 1.7rem;
+  padding: 1rem;
+  font-weight: bold;
+  width: 13rem;
+}
+#main-content .paris-subscribe .lists {
+  position: absolute;
+  left: 15rem;
+}
+#main-content .paris-subscribe .lists ul {
+  display: flex;
+  justify-content: center;
+}
+#main-content .paris-subscribe .lists ul li {
+  margin-right: 11rem;
+  color: #f4f4f4;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */

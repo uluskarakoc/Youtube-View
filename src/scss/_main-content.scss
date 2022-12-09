@@ -36,14 +36,13 @@
     }
   }
   .paris-subscribe {
-    height: 20vh;
+    height: 17vh;
     width: 159rem;
-    
     position: relative;
     .subscribe {
       position: relative;
       height: 15vh;
-      
+
       .profil {
         position: absolute;
         top: 2rem;
@@ -65,10 +64,28 @@
       }
       button {
         position: absolute;
-        top: 7rem;
-        left: 140rem;
+        top: 6rem;
+        left: 136rem;
         color: $light-color;
         background-color: $youtube-color;
+        font-size: 1.7rem;
+        padding: 1rem;
+        font-weight: bold;
+        width: 13rem;
+      }
+    }
+    .lists {
+      position: absolute;
+      left: 15rem;
+      ul {
+        display: flex;
+        justify-content: center;
+
+        li {
+          margin-right: 11rem;
+          color: $light-color;
+          font-size: 1.5rem;
+        }
       }
     }
   }
