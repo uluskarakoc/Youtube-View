@@ -2,6 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   height: 10vh;
+  background-color:$dark-theme-there ;
    .youtube-icon {
     display: flex;
     justify-content: space-around;
@@ -35,6 +36,9 @@ header {
     input {
       height: 3rem;
       width: 70rem;
+      padding: 1rem;
+      border: none;
+      background-color: $dark-color;
     }
     .fa-magnifying-glass {
       color: $gray-color;

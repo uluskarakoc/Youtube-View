@@ -2,27 +2,27 @@
   .paris-photo {
     display: flex;
     .black-block {
-      height: 22vh;
+      height: 22rem;
       width: 20rem;
-      background-color: $dark-color;
+      background-color: $dark-theme-forth;
     }
     .black-block-second {
-      height: 22vh;
+      height: 22rem;
       width: 96rem;
-      background-color: $dark-color;
+      background-color: $medium-color;
       .photo-icons {
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
         height: 22vh;
         .fa-square-facebook {
-          color: blue;
+          color: $social-media-color;
         }
         .fa-twitter {
-          color: blue;
+          color: $social-media-color;
         }
         .fa-instagram {
-          color: red;
+          color: $youtube-color;
         }
         i {
           margin-right: 4rem;
@@ -32,16 +32,17 @@
       }
     }
     img {
-      width: 24vw;
+      width: 49.2rem;
     }
   }
   .paris-subscribe {
     height: 17vh;
-    width: 159rem;
+    // width: 160rem;
     position: relative;
+    background-color: $dark-color;
     .subscribe {
       position: relative;
-      height: 15vh;
+      height: 14vh;
 
       .profil {
         position: absolute;
@@ -72,6 +73,7 @@
         padding: 1rem;
         font-weight: bold;
         width: 13rem;
+        border: none;
       }
     }
     .lists {
@@ -96,6 +98,7 @@
     height: 47vh;
     width: 160rem;
     position: relative;
+    background-color: $extreme-dark-color;
 
     .uploads {
       position: absolute;
@@ -107,7 +110,6 @@
       position: absolute;
       top: 5rem;
       left: 6rem;
-      // background-color: goldenrod;
       display: flex;
       flex-wrap: wrap;
       gap: 0.3rem;
@@ -127,7 +129,7 @@
           font-size: 1.2rem;
           font-weight: bold;
           position: absolute;
-          top: 11rem;
+          top: 8.5rem;
           left: 17rem;
           background-color: $dark-color;
         }

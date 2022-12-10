@@ -3,7 +3,7 @@
   aside {
     height: 90vh;
     width: 30rem;
-    // background-color: goldenrod;
+     background-color: $dark-theme-there;
     ul {
       display: flex;
     }
@@ -24,6 +24,12 @@
     }
     hr {
       margin: 1.5rem 0;
+    }
+    .third-aside {
+      img {
+        width: 2rem;
+        border-radius: 50%;
+      }
     }
   }
 }

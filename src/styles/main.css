@@ -10,7 +10,7 @@ body {
   height: 100vh;
   width: 100vw;
   font-size: 10px;
-  background-color: #333;
+  background-color: rgb(47, 45, 45);
   font-family: "Prompt", sans-serif;
 }
 html img,
@@ -44,6 +44,7 @@ header {
   display: flex;
   justify-content: space-between;
   height: 10vh;
+  background-color: rgb(43, 43, 43);
 }
 header .youtube-icon {
   display: flex;
@@ -77,6 +78,9 @@ header .search-bar .fa-microphone {
 header .search-bar input {
   height: 3rem;
   width: 70rem;
+  padding: 1rem;
+  border: none;
+  background-color: #212121;
 }
 header .search-bar .fa-magnifying-glass {
   color: #ccc;
@@ -109,6 +113,7 @@ header .sign-icon i {
 #menu aside {
   height: 90vh;
   width: 30rem;
+  background-color: rgb(43, 43, 43);
 }
 #menu aside ul {
   display: flex;
@@ -130,19 +135,23 @@ header .sign-icon i {
 #menu aside hr {
   margin: 1.5rem 0;
 }
+#menu aside .third-aside img {
+  width: 2rem;
+  border-radius: 50%;
+}
 
 #main-content .paris-photo {
   display: flex;
 }
 #main-content .paris-photo .black-block {
-  height: 22vh;
+  height: 22rem;
   width: 20rem;
-  background-color: #111;
+  background-color: rgb(38, 37, 37);
 }
 #main-content .paris-photo .black-block-second {
-  height: 22vh;
+  height: 22rem;
   width: 96rem;
-  background-color: #111;
+  background-color: rgb(47, 45, 45);
 }
 #main-content .paris-photo .black-block-second .photo-icons {
   display: flex;
@@ -151,10 +160,10 @@ header .sign-icon i {
   height: 22vh;
 }
 #main-content .paris-photo .black-block-second .photo-icons .fa-square-facebook {
-  color: blue;
+  color: rgb(68, 68, 238);
 }
 #main-content .paris-photo .black-block-second .photo-icons .fa-twitter {
-  color: blue;
+  color: rgb(68, 68, 238);
 }
 #main-content .paris-photo .black-block-second .photo-icons .fa-instagram {
   color: red;
@@ -165,16 +174,16 @@ header .sign-icon i {
   font-size: 2rem;
 }
 #main-content .paris-photo img {
-  width: 24vw;
+  width: 49.2rem;
 }
 #main-content .paris-subscribe {
   height: 17vh;
-  width: 159rem;
   position: relative;
+  background-color: #212121;
 }
 #main-content .paris-subscribe .subscribe {
   position: relative;
-  height: 15vh;
+  height: 14vh;
 }
 #main-content .paris-subscribe .subscribe .profil {
   position: absolute;
@@ -205,6 +214,7 @@ header .sign-icon i {
   padding: 1rem;
   font-weight: bold;
   width: 13rem;
+  border: none;
 }
 #main-content .paris-subscribe .lists {
   position: absolute;
@@ -226,6 +236,7 @@ header .sign-icon i {
   height: 47vh;
   width: 160rem;
   position: relative;
+  background-color: rgb(24, 24, 24);
 }
 #main-content .grid .uploads {
   position: absolute;
@@ -258,9 +269,9 @@ header .sign-icon i {
   font-size: 1.2rem;
   font-weight: bold;
   position: absolute;
-  top: 11rem;
+  top: 8.5rem;
   left: 17rem;
-  background-color: #111;
+  background-color: #212121;
 }
 
 /*# sourceMappingURL=main.css.map */
