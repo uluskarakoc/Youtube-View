@@ -90,11 +90,44 @@
     }
   }
   .grid {
-    background-color: goldenrod;
+    // background-color: goldenrod;
     height: 47vh;
+    width: 160rem;
+    position: relative;
     .uploads {
+      position: absolute;
+      font-size: 1.5rem;
+      left: 6rem;
+      top: 2rem;
     }
-    .video-grid {
+    .cards {
+      position: absolute;
+      top: -2rem;
+      padding: 6rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .3rem;
+      .card {
+        height: 21rem;
+        width: 20rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        img {
+          width: 20rem;
+        }
+        .time {
+          border-radius: 20%;
+          padding: 0.2rem;
+          font-size: 1.2rem;
+          font-weight: bold;
+          position: absolute;
+          top: 11rem;
+          left: 17rem;
+          background-color: $dark-color;
+        }
+      }
     }
   }
 }

@@ -220,8 +220,44 @@ header .sign-icon i {
   font-size: 1.5rem;
 }
 #main-content .grid {
-  background-color: goldenrod;
   height: 47vh;
+  width: 160rem;
+  position: relative;
+}
+#main-content .grid .uploads {
+  position: absolute;
+  font-size: 1.5rem;
+  left: 6rem;
+  top: 2rem;
+}
+#main-content .grid .cards {
+  position: absolute;
+  top: -2rem;
+  padding: 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+#main-content .grid .cards .card {
+  height: 21rem;
+  width: 20rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#main-content .grid .cards .card img {
+  width: 20rem;
+}
+#main-content .grid .cards .card .time {
+  border-radius: 20%;
+  padding: 0.2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  top: 11rem;
+  left: 17rem;
+  background-color: #111;
 }
 
 /*# sourceMappingURL=main.css.map */
