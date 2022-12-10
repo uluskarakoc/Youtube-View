@@ -220,6 +220,9 @@ header .sign-icon i {
   font-size: 1.5rem;
 }
 #main-content .grid {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   height: 47vh;
   width: 160rem;
   position: relative;
@@ -232,8 +235,8 @@ header .sign-icon i {
 }
 #main-content .grid .cards {
   position: absolute;
-  top: -2rem;
-  padding: 6rem;
+  top: 5rem;
+  left: 6rem;
   display: flex;
   flex-wrap: wrap;
   gap: 0.3rem;
